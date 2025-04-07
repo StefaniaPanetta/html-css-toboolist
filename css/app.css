@@ -1,0 +1,95 @@
+/*regole di RESET*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+body {
+background-color: grey;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+html{
+    font-family: "Poppins", sans-serif ;
+}
+/*LAYOUT*/
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/*HEADER*/
+.page-header{
+    background-color: white;
+    padding: 10px 24px;
+}
+.page-header .logo{
+height: 30px;
+}
+
+/*MAIN*/
+.card{
+    background-color: white;
+    border-radius: 10px;
+}
+.card-header{
+    border-bottom: 1px solid grey;
+    padding: 14px 30px;
+}
+.card-body{
+    padding: 24px 30px;
+}
+.button{
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 14px;
+    height: 32px;
+    background-color: blue;
+}
+
+.button-outline{
+    border: 1px solid;
+    background-color: white;
+}
+
+/*TODO-LIST*/
+.section-title{
+    font-size: 16px;
+    display: block;
+}
+.item-section{
+   margin-bottom: 16px;
+}
+.Task-icon{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+.Task-icon.icon-check {
+    color: green;
+}
+.Task-icon.icon-cross {
+    color: red;
+}
+.Task-tag{
+    height: 30px;
+    width: 100px;
+    border: 1px solid;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 99%;
+    text-align: center;
+    line-height: 30px;
+}

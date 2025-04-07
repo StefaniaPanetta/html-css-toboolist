@@ -3,10 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/app.css">
 </head>
 <body>
-    
+    <header class="page-header">
+        <img class="logo" src="./img/Toboolist-logo.jpg" alt="Logo Toboolist">
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <button class="button">Add Task</button>
+                    <button class="button button-outline">Add Section</button>
+                </div>
+                <div class="card-body">
+                    <ul class="todo-list">
+                        <li class="item-section">
+                            <strong class="section-title"><span>&dtrif;</span>New Task</strong>
+                            <ul class="Task">
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-check">&check;</span>
+                                    <span class="Task-title">Quarterly Newsletter</span>
+                                    <span class="Task-tag">Editorial</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item-section">
+                            <strong class="section-title"><span>&dtrif;</span>Today</strong>
+                            <ul class="Task">
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-check">&check;</span>
+                                    <span class="Task-title">Recruiting Blog Post</span>
+                                    <span class="Task-tag">Editorial</span></li>
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-check">&check;</span>
+                                    <span class="Task-title">Mobile app launch</span>
+                                    <span class="Task-tag">Q1 Goals</span></li>
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-cross">&cross;</span>
+                                    <span class="Task-title">Interview John h.</span> 
+                                    <span class="Task-tag">Recruiting</span></li>
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-check">&check;</span>
+                                    <span class="Task-title">Summit update to mobile storefronts</span>
+                                    <span class="Task-tag">Mobile</span></li>
+                            </ul>
+                        </li>
+                        <li class="item-section">
+                            <strong class="section-title"><span>&dtrif;</span>Upcoming</strong>
+                            <ul class="Task">
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-cross">&cross;</span>
+                                    <span class="Task-title">Schedule meeting with Alex</span> 
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-check">&check;</span>
+                                    <span class="Task-title">Homepage Refresh</span>
+                                    <span class="Task-tag">Website</span></li>
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-check">&check;</span>
+                                    <span class="Task-title">Onboard New sales team members</span>
+                                    <span class="Task-tag">Sales</span></li>
+                                <li class="Task-item">
+                                    <span class="Task-icon icon-check">&check;</span>
+                                    <span class="Task-title">Reviex editorial calendar</span>
+                                    <span class="Task-tag">Editorial</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+
 </body>
 </html>
